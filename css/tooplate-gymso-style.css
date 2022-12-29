@@ -261,7 +261,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .navbar {
-    background-image : url(/images/home/Aria-nail-bar-background-navbar.jpg);
+    background-image : url(../images/home/Aria-nail-bar-background-navbar.jpg);
     padding: 1rem;
     border-bottom: 1px solid #545454;
   }
@@ -332,7 +332,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
   }
 
   .navbar-toggler .navbar-toggler-icon {
-    background: #ff0000;
+    background: #fff;
     transition: background 10ms 300ms ease;
     display: block;
     width: 30px;
@@ -348,7 +348,7 @@ https://www.tooplate.com/view/2119-gymso-fitness
     position: absolute;
     right: 0;
     left: 0;
-    background: #ff0000;
+    background: #fff;
     width: 30px;
     height: 2px;
     content: '';
@@ -729,13 +729,13 @@ img {
     margin-right: 0 !important;
   }
   .navbar-toggler{
-    margin:0;
+    margin-right: 7px;
   }
 
 }
 @media (max-width: 424px){
   .navbar-brand{
-    width: 90%;
+    width: 50%;
   }
 
 }
@@ -848,4 +848,58 @@ h2.modal-title{
 .btn-callnow:hover, .btn-callnow:active{
   background: #b63c29;
   color: #fff;
+}
+
+/*---*/
+
+.boxed-page .section-padding,
+.section-padding-contact{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+
+.overlay .section-content {
+  position: relative;
+  z-index: 1;
+}
+
+.heading-menu .text-center{
+  font-size: 25px !important;
+}
+
+.menu-img {
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+}
+
+@media (max-width: 767px) {
+  .team-card .img-fluid {
+      width: 100%;
+  }
+
+  .hero-left {
+      height: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .team-card .img-fluid {
+      width: 100%;
+  }
+  .testi-content .testi-text {
+      /*padding: 30px 10% !important;*/
+  }
+  .testi-content .owl-dots{
+      padding-bottom: 30px;
+  }
+}
+
+.menu-img img {
+  transition: all .5s ease;
+  height: 100%;
+  object-fit: cover;
+  border: 8px solid #8c5953;
+  border-radius: 100%;
 }
